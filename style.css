@@ -41,6 +41,5 @@ footer {
 }
 
 input {
-  position: absolute;
-  left: -9999px;
+  display: none;
 }
