@@ -7,11 +7,12 @@ html, body {
 }
 
 header {
-  height: 4rem;
-  line-height: 4rem;
-  font-size: 2rem;
+  height: 10vh;
+  line-height: 10vh;
   background-color: lightpink;
   text-align: center;
+
+  font-size: 6vh;
   font-family: Helvetica;
   color: saddlebrown;
 }
@@ -33,7 +34,7 @@ div {
 }
 
 footer {
-  height: 4rem;
+  height: 10vh;
   width: 100%;
   display: block;
   background-color:  lightpink;
