@@ -4,10 +4,12 @@ function openFileDialog (){
 
 function readURL(files) {
   if (files[0]) {
+    // A file reader to send the Microsoft Cognitive Services
     var emotionReader = new FileReader();
     emotionReader.onload = getEmotion;
     emotionReader.readAsArrayBuffer(files[0]);
 
+    // A file reader to preview the image on the screen
     var previewReader = new FileReader();
     previewReader.onload = preview;
     previewReader.readAsDataURL(files[0]);

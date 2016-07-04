@@ -49,25 +49,3 @@ footer {
 input {
   display: none;
 }
-
-/**
- * iPhone 5
- * You can also target devices with aspect ratio.
- */
-
-@media screen and (device-aspect-ratio: 40/71) {
-  header {
-    // full height for iOS 7 = 920px
-    height: calc(0.1*920px);
-    line-height: calc(0.1*920px);
-    font-size: calc(0.06*920px);
-  }
-
-  div {
-    height:  calc(0.8*920px);
-  }
-
-  footer {
-    height: calc(0.1*920px);
-  }
-}
